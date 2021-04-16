@@ -12,6 +12,7 @@ import EventBind from './components/EventBind';
 import HttpPost from './components/HttpGet';
 import ParentComponenet from './components/ParentComponenet';
 import UserLogin from './components/UserLogin';
+import NameList from './components/NameList';
 //import Greet from './components/Greet';
 
 
@@ -30,6 +31,7 @@ import UserLogin from './components/UserLogin';
     return (
 
       <div className="App">
+        <NameList/>
         <UserLogin/>
         <Message></Message>
        <MyComponent name="Afsaneh" heroName="Wonder Woman">
