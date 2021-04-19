@@ -24,7 +24,7 @@ export class UserLogin extends Component {
         ) */
 
 
-        // // 2.second way to conditional 
+        // // 2.second way to conditional with variable
         // let message
         // if(this.state.isLoggeIn)
         // {
